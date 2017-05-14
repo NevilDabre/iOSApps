@@ -15,6 +15,8 @@
 		3F1B63441EC6754E00D65105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B63421EC6754E00D65105 /* LaunchScreen.storyboard */; };
 		3F1B634F1EC6754E00D65105 /* Assignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B634E1EC6754E00D65105 /* Assignment1Tests.m */; };
 		3F1B635A1EC6754E00D65105 /* Assignment1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B63591EC6754E00D65105 /* Assignment1UITests.m */; };
+		3F1B63691EC6757600D65105 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B63671EC6757600D65105 /* blue.jpg */; };
+		3F1B636A1EC6757600D65105 /* blue2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B63681EC6757600D65105 /* blue2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3F1B63551EC6754E00D65105 /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1B63591EC6754E00D65105 /* Assignment1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment1UITests.m; sourceTree = "<group>"; };
 		3F1B635B1EC6754E00D65105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1B63671EC6757600D65105 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blue.jpg; path = ../../AnnualSalaryAssignment1/AnnualSalaryAssignment1/blue.jpg; sourceTree = "<group>"; };
+		3F1B63681EC6757600D65105 /* blue2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blue2.jpg; path = ../../AnnualSalaryAssignment1/AnnualSalaryAssignment1/blue2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		3F1B63331EC6754E00D65105 /* Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				3F1B63671EC6757600D65105 /* blue.jpg */,
+				3F1B63681EC6757600D65105 /* blue2.jpg */,
 				3F1B63371EC6754E00D65105 /* AppDelegate.h */,
 				3F1B63381EC6754E00D65105 /* AppDelegate.m */,
 				3F1B633A1EC6754E00D65105 /* ViewController.h */,
@@ -249,6 +255,8 @@
 				3F1B63441EC6754E00D65105 /* LaunchScreen.storyboard in Resources */,
 				3F1B63411EC6754E00D65105 /* Assets.xcassets in Resources */,
 				3F1B633F1EC6754E00D65105 /* Main.storyboard in Resources */,
+				3F1B636A1EC6757600D65105 /* blue2.jpg in Resources */,
+				3F1B63691EC6757600D65105 /* blue.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

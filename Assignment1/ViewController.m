@@ -17,8 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
+- (IBAction)UISliderSalaryChange:(id)sender {
+    
+    //self.UILabelCurrentSalary.text = [NSString stringWithFormat:@"%f", self.UlSliderSalary.value];
+    
+    float number = self.UlSliderSalary.value;
+    int value = (int)(number * 1);
+    
+    self.UILabelCurrentSalary.text = [NSString stringWithFormat:@"%i", value];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

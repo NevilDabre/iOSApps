@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISlider *UlSliderSalary;
+
+@property (weak, nonatomic) IBOutlet UILabel *UILabelCurrentSalary;
+
 
 @end
 
